@@ -22,7 +22,7 @@ nav li a{
 	transition: all 0.2s;
 	border-radius: 6px;
 }
-nav li a:hover, nav li a:focus, nav li a:active{
+nav li a:hover, nav li a:focus{
 	text-decoration: none;
 	outline: none;
 	background: #FFF;
@@ -85,3 +85,27 @@ nav li a:hover, nav li a:focus, nav li a:active{
 	border-radius: 200px;
 	color: skyblue;
 }
+
+@media screen and (max-width:768px)
+{
+	.banner-info
+	{
+		text-align:center;
+		margin-bottom: 15px;
+	}
+	.frase{
+		margin: 60px 0;
+	}
+	.frase h2{
+		font-size: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+/*dd*/
