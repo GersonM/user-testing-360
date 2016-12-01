@@ -1,0 +1,87 @@
+/*
+{
+	outline: 1px solid rgba(255,0,0,0.4);
+}*/
+body
+{
+	font-family: Lato;
+}
+/*--------- Header */
+header
+{
+	background: url(../image/large.jpg);
+	background-size: cover;
+	color: #FFF;
+}
+header a{
+	color: #FFF;
+}
+nav li a{
+	display: block;
+	padding: 15px 15px;
+	transition: all 0.2s;
+	border-radius: 6px;
+}
+nav li a:hover, nav li a:focus, nav li a:active{
+	text-decoration: none;
+	outline: none;
+	background: #FFF;
+}
+
+#main-navigation
+{
+
+	position: absolute;
+	right: 10px;
+	margin: 10px 0 0 0;
+}
+#main-navigation ul
+{
+	background: rgba(0,0,0,0.7);
+	list-style: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+.frase
+{
+	margin: 120px 0;
+	text-align: center;
+}
+.tapita-azul
+{
+	background: rgba(90, 107, 136, 0.6);
+	padding-top: 10px ;
+}
+.header-banner
+{
+	background: rgba(87, 149, 255, 0.79);
+	padding: 30px 0;
+}
+.header-banner h3
+{
+	margin: 0;
+}
+.banner-button
+{
+	background: none;
+	border:1px solid #FFF;
+	padding: 5px 10px;
+	border-radius: 3px;
+	font-size: 20px;
+
+}
+
+
+
+.icon-container
+{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	line-height: 150px;
+	font-size: 60px;
+	text-align: center;
+	box-shadow: -2px 2px 10px rgba(0,0,0,0.2);
+	border-radius: 200px;
+	color: skyblue;
+}
